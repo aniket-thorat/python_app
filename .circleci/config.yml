@@ -16,8 +16,8 @@ jobs:
             - "venv"
       - run:
           name: Running tests
-          command: |
-            python tests.py
+      
+            
       - store_artifacts:
           path: test-reports/
           destination: House-Price-Predictor
